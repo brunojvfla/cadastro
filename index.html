@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>cadastro</title>
+</head>
+<body>
+    
+    <form id="Formtime">
+        <h1>Cadastro</h1>
+        <span id="enviadas">Enviadas: 0</span>
+        <div>
+        <label for="nomeCompleto">Nome Completo</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+    </div>
+
+    <div>
+        <label for="Whatsapp">Whatsapp</label>
+        <input type="text" name="Whatsapp">
+    </div>
+
+    <div>
+        <label for="mensagem">Mensagem</label>
+        <textarea type="text" name="mensagem"></textarea> 
+    </div>
+
+        <button id="enviar" type="submit">Enviar</button>
+        <span id="mensage"></span>
+    </form>
+
+    <script src="functions.js"></script>
+</body>
+</html>
